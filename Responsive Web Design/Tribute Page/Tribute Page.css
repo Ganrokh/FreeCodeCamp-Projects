@@ -1,0 +1,38 @@
+body {
+    background: #202020 !important;
+    color: lightgrey !important;
+    font-family: lato;
+  }
+  
+  #title {
+    padding-left: 23.7%;
+    Font-family: 'Prosto One', cursive;
+      text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                         0px 8px 13px rgba(0,0,0,0.1),
+                         0px 18px 23px rgba(0,0,0,0.1);
+  }
+  
+  h1 {
+    Font-family: 'Prosto One', cursive;
+  }
+  
+  #image {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 100%;
+  }
+  
+  #img-div {
+    background: darkslategrey;
+    width: 100%;
+    padding-left: auto;
+    padding-right: auto;
+    display: block;
+  }
+  
+  #img-caption {
+    padding-top: 10px;
+    background: #202020;
+    text-align: center;
+  }

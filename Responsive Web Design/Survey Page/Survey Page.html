@@ -1,0 +1,118 @@
+<html>
+<head>
+	<title>Form of Many Things</title>
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=K2D:400,700|Shanti" rel="stylesheet">
+  <link rel="stylesheet" href="Survey Page.CSS">
+</head>
+<body>
+
+  <h1 id="title">Form of Many Things</h1>
+  
+ <div id="full-form" class="container">
+ <p id="description"> How does you and your RPG group use the mysterious Deck of Many Things?</p>
+  
+ <form id="survey-form">
+   
+   <div class="container">
+     <div class="labels">
+     <label id="name-label" for="name">*Name:</label>
+     </div>
+     <div class="answers">
+     <input autofocus type="text" name="name" id="name" class="input-field" placeholder="Enter your name" required>
+     </div>
+    </div>
+   
+   <div class="container">
+     <div class="labels">
+     <label id="email-label" for="name">*Email:</label>
+     </div>
+     <div class="answers">
+     <input autofocus type="email" name="email" id="email" class="input-field" placeholder="Enter your Email" required>
+     </div>
+    </div>
+   
+   <div class="container">
+     <div class="labels">
+     <label id="number-label" for="age">*Age:</label>
+     </div>
+     <div class="answers">
+     <input autofocus type="number" name="age" id="number" class="input-field" min="1" max="125" placeholder="Age" required>
+     </div>
+    </div>
+   
+<div class="container">
+      <div class="labels">
+        <label for="role">Are you regularly a player or DM?</label>
+      </div>
+      <div class="answers">
+        <select id="dropdown" name="role" class="dropdown">
+      <option disabled value>Select an option</option>
+      <option  value="player">Player</option>
+      <option value="dm">DM</option>
+      <option value="equal">Both equally</option>
+      <option value="other">Other</option>
+    </select>
+      </div>
+    </div>
+   
+    <div class="container">
+      <div class="labels">
+        <label for="used">*Has your group used the Deck of Many Things?</label>
+      </div>
+      <div class="answers">
+        <ul style="list-style: none;">
+          <li class="radio"><label>Yes<input name="radio-buttons" value="1"  type="radio" class="card" ></label></li>
+          <li class="radio"><label>No<input name="radio-buttons" value="2"  type="radio" class="card" ></label></li>
+          <li class="radio"><label>Maybe so<input name="radio-buttons" value="3"  type="radio" class="card" ></label></li>
+        </ul>
+      </div>
+    </div>
+   
+   <div class="container">
+      <div class="labels">
+        <label for="preferences">What's your favorite card? (Check all that apply): </label>
+      </div>
+      <div class="answers">
+        <ul id="cards" style="list-style: none;">
+          <li class="checkbox"><label><input name="prefer" value="1" type="checkbox" class="card">Vizier</label></li>
+          <li class="checkbox"><label><input name="prefer" value="2" type="checkbox" class="card">Sun</label></li>
+          <li class="checkbox"><label><input name="prefer" value="3" type="checkbox" class="card">Moon</label></li>
+          <li class="checkbox"><label><input name="prefer" value="4" type="checkbox" class="card">Star</label></li>
+          <li class="checkbox"><label><input name="prefer" value="5" type="checkbox" class="card">Comet</label></li>
+          <li class="checkbox"><label><input name="prefer" value="6" type="checkbox" class="card">The Fates</label></li>
+          <li class="checkbox"><label><input name="prefer" value="7" type="checkbox" class="card">Throne</label></li>
+          <li class="checkbox"><label><input name="prefer" value="8" type="checkbox" class="card">Key</label></li>
+          <li class="checkbox"><label><input name="prefer" value="9" type="checkbox" class="card">Knight</label></li>
+          <li class="checkbox"><label><input name="prefer" value="10" type="checkbox" class="card">Gem</label></li>
+          <li class="checkbox"><label><input name="prefer" value="11" type="checkbox" class="card">Talons</label></li>
+          <li class="checkbox"><label><input name="prefer" value="12" type="checkbox" class="card">The Void</label></li>
+          <li class="checkbox"><label><input name="prefer" value="13" type="checkbox" class="card">Flames<label></li>
+          <li class="checkbox"><label><input name="prefer" value="14" type="checkbox" class="card">Skull</label></li>
+          <li class="checkbox"><label><input name="prefer" value="15" type="checkbox" class="card">Idiot</label></li>
+          <li class="checkbox"><label><input name="prefer" value="16" type="checkbox" class="card">Donjon</label></li>
+          <li class="checkbox"><label><input name="prefer" value="17" type="checkbox" class="card">Ruin</label></li>
+          <li class="checkbox"><label><input name="prefer" value="18" type="checkbox" class="card">Euryale</label></li>
+          <li class="checkbox"><label><input name="prefer" value="19" type="checkbox" class="card">Rogue</label></li>
+          <li class="checkbox"><label><input name="prefer" value="20" type="checkbox" class="card">Balance</label></li>
+          <li class="checkbox"><label><input name="prefer" value="21" type="checkbox" class="card">Fool</label></li>
+          <li class="checkbox"><label><input name="prefer" value="22" type="checkbox" class="card">Jester</label></li>
+        </ul>
+      </div>
+    </div>
+   
+    <div class="container">
+      <div class="labels">
+        <label for="comments">What was your most memorial experience using the Deck?</label>
+      </div>
+      <div class="answers">
+        <textarea id="experience" class="input-field" style="height:50px;resize:vertical;" name="experience" placeholder="What happened?"></textarea>
+      </div>
+    </div>
+    <button id="submit" type="submit">Submit</button>
+  </form>
+
+</div>     
+</body>
+</html> 

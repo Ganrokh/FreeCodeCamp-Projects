@@ -1,0 +1,113 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
+  }
+  
+  #navbar {
+    float: right;
+    width: 100%;
+    position: fixed;
+    
+  }
+  
+  ul {
+    text-align: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4CAF50;
+  }
+  
+  li {
+    display: inline-block;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px 30px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  li a:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  #welcome-section {
+    top: 0;
+    background: #B5FFDB;
+    min-height: 55vh;
+    padding-top: 45vh;
+  }
+  
+  h1 {
+    font-family: 'Work Sans', sans-serif;
+    width: 31%;
+    margin: auto;
+    font-size: 50px;
+    margin-bottom: 0;
+    letter-spacing: 24.5px;
+  }
+  
+  #welcome-section hr {
+   width: 31%;
+    padding: 0;
+  }
+  
+  #projects {
+    margin-top: -1.2em;
+    background: #CEFFCA;
+  }
+  
+  #projects hr {
+    width: 11%;
+    margin-top: -1.3em;
+  }
+  
+  .project {
+    display: inline-block;
+    overflow: hidden;
+    width: 280px;
+    margin: 40px 80px;
+  }
+  
+  .project-pic {
+    width: 100%;
+    height: 180px;
+  }
+  
+  .project-title {
+    font-weight: bold;
+  }
+  
+  #profiles {
+    background-color: #00FF9F;
+    margin-top: -1.1em;
+  }
+  
+  #profiles hr {
+    width: 18%;
+    margin-top: -1.1em;
+  }
+  
+  #profiles img {
+    height: 200px;
+  }
+  
+  .profile-pic:first-of-type {
+    margin-left: 10%;
+  }
+  
+  .profile-pic:last-of-type {
+    margin-right: 10%;
+  }
+  
+  @media only screen and (max-width: 367px)  {
+    h1 {
+      letter-spacing: 0;
+    }
+  }
